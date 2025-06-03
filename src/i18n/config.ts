@@ -29,6 +29,7 @@ export const localeToProfile = {
     langTag: "zh-CN",
     direction: "ltr",
     googleFontName: "Noto+Sans+SC",
+    default: true,
   },
   en: {
     name: "English",
@@ -36,7 +37,6 @@ export const localeToProfile = {
     langTag: "en-US",
     direction: "ltr",
     googleFontName: "IBM+Plex+Mono",
-    default: true,
   },
 } satisfies Record<string, LocaleProfile>;
 
