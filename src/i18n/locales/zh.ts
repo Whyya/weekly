@@ -1,17 +1,16 @@
 import type { I18nStrings } from "@/i18n/types";
 
 const baseStrings = {
-  "site.title": "AstroPaper 多语言版",
-  "site.desc": "支持多语言的 AstroPaper 主题分支",
+  "site.title": "小陶的周报",
+  "site.desc": "记录小陶的每周的产出和关注的事物",
 };
 
 const CNLocale: I18nStrings = {
   ...baseStrings,
   "hero.title": "你好",
   "hero.body": `
-        AstroPaper 是一个极简、响应式、无障碍且对SEO友好的 Astro 博客主题。
-        该主题遵循最佳实践，开箱即提供无障碍支持。
-        默认支持浅色和深色模式，此外还可以配置其他配色方案。
+        我是小陶，一个对世界仍然充满好奇的中年人。 我在此记录自己每周的产出和关注点，给生活带入一个明确的节奏，让自己与外界更多互动。 
+        记录困惑，寻找答案，功不唐捐。
 `,
   "hero.beforeReadme": "阅读博客文章或查看",
   "hero.readme": "README",
